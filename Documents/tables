@@ -1,0 +1,87 @@
+Core User Management
+    users
+    Stores user details like username, email, password, and profile information.
+
+    user_roles
+    Manages user roles (e.g., admin, player, moderator).
+
+    sessions
+    Tracks user sessions and login details for authentication.
+
+Game Data
+
+    games
+    Stores information about available games (e.g., name, description, category).
+
+    game_sessions
+    Tracks ongoing or completed game sessions, including players involved and results.
+
+    leaderboard
+    Stores player scores, ranks, and statistics.
+
+    game_assets
+    Stores in-game assets such as characters, items, or skins.
+
+Player Progression
+
+    player_profiles
+    Tracks player-specific data like achievements, levels, and experience points.
+
+    achievements
+    Defines game achievements or trophies players can earn.
+
+    player_achievements
+    Links players to achievements they have earned.
+
+    player_inventory
+    Tracks in-game items owned by a player.
+
+Social Features
+
+    friends
+    Manages friendships or player connections.
+
+    chat_messages
+    Stores messages exchanged between players or groups.
+
+    guilds
+    Tracks player-created groups or clans.
+
+    guild_members
+    Links players to guilds they belong to.
+
+E-Commerce (if applicable)
+
+    store_items
+    Stores details about items available for purchase in an in-game store.
+
+    transactions
+    Tracks player purchases or financial transactions.
+
+    currencies
+    Manages in-game currencies like coins or gems.
+
+    player_wallet
+    Tracks a player's current currency balances.
+
+    Analytics and Monitoring
+    event_logs
+
+Logs user activities or significant game events for analytics.
+
+    feedback
+    Stores user feedback, reviews, or bug reports.
+
+    reports
+    Manages reports for in-game behavior or bugs.
+
+    Administrative Features
+    admins
+
+    Tracks admin users with elevated privileges.
+    bans
+
+    Manages bans or restrictions on players.
+    settings
+
+    Stores configurable application or game settings.
